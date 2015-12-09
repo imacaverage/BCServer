@@ -122,7 +122,7 @@ public class BCServer {
         // получить параметры для соединения с базой данных
         this.dbConn = ini.getProperty("Conn", "jdbc:mysql://localhost:3306/bc");
         this.dbLogin = ini.getProperty("Login", "root");
-        this.dbPassword = ini.getProperty("Password", "ghjcnjnfr");
+        this.dbPassword = ini.getProperty("Password", "root");
             
     }
     
